@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 100%;
+}    
+
+nav ul{
+    background: #444;
+    overflow: hidden;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: .8rem 1rem;
+    display: block;
+    line-height: 1;
+    text-align: center;
+}
+
+nav ul li {
+    border-bottom: 1px solid #aaa;
+}
+
+nav div:first-child{
+    background: #222;
+}
+
+nav div:first-child h1{
+    line-height: 0;
+}
+
+nav div:first-child img{
+    height: 4em;
+}
+
+header menu{
+    clear: both;
+    max-height: 0;
+    transition:max-height .2s ease-out;
+}
+
+/*STØRRE SKJERM*/
+@media only screen and (min-width: 30em){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background: #222;
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        background: none;
+    }
+    
+    nav div:first-child h1{
+        padding: 0;
+    }
+    
+    nav ul li{
+        border-bottom: none;
+    }
+}
+/*
+    main{
+        padding-top: 50px;
+        width: 500px;
+        margin: 50px auto 0 auto;
+        line-height: 1.5;
+        
+    }
+
+
+h1, h2{
+    text-align: center;
+    
+}
+    .pageillustration{
+        width: 100%;
+    }
+
+
+#kart{
+    width: 80%;
+    height: 300px;
+    margin: 0 10px 0 10%;
+}
+
+
+
+    table{
+        text-align: left;
+    }
+
+    th{
+        width: 8em;
+        vertical-align: top;
+        text-align: -internal-center;
+    }
+
+
+
+
+    ul{
+        list-style-type: none;
+        background-color: blueviolet;
+        overflow: hidden;
+        margin: 0;
+        
+        width: 100%;    
+        position: fixed;
+        top: 0;
+    }
+
+
+    ul li{
+        float: left;
+    }
+
+
+    ul li a{
+        color: #fff;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        font-family: sans-serif;
+    }
+
+ul li a:hover{
+    background-color: aqua;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    ul > li {
+      width: 100%;
+    }
+    
+    main{
+        padding-top: 150px;
+        width: 94%;
+        margin: 6;
+        
+    }
+}         
+*/
